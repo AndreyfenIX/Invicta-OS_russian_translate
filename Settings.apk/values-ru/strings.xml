@@ -1577,6 +1577,9 @@
     <string name="instant_apps_account">Аккаунт для приложений с мгновенным запуском</string>
     <string name="insufficient_storage">Недостаточно места.</string>
     <string name="intent_sender_account_label">Аккаунт:</string>
+    <string name="intent_sender_action_label">Действие:</string>
+    <string name="intent_sender_data_label">Данные:</string>
+    <string name="intent_sender_resource_label">Ресурс:</string>
     <string name="intent_sender_sendbroadcast_text">Отправить broadcast</string>
     <string name="intent_sender_startactivity_text">Начать activity</string>
     <string name="interaction_control_category_title">Элементы управления</string>
@@ -1885,6 +1888,7 @@
     <string name="lost_internet_access_switch">Переключаться на мобильный Интернет</string>
     <string name="lost_internet_access_text">Вы можете переключаться на мобильную сеть при слабом сигнале Wi‑Fi. Может взиматься плата за передачу данных.</string>
     <string name="lost_internet_access_title">В этой сети Wi-Fi нет доступа к Интернету</string>
+    <string name="macaddr_label">MAC-адрес:</string>
     <string name="mah">%d мА·ч</string>
     <string name="main_running_process_description">Основной используемый процесс.</string>
     <string name="manage_device_admin">Приложения администратора устройства</string>
@@ -2002,7 +2006,8 @@
     <string name="menu_show_system">Показать системные процессы</string>
     <string name="menu_stats_last_unplugged">С последнего отключения %1$s</string>
     <string name="menu_stats_refresh">Обновить</string>
-    <string name="menu_stats_total">Всего</string>
+    <string name="menu_stats_reset">Сбросить статистику</string>
+    <string name="menu_stats_total">Всего использовано</string>
     <string name="menu_stats_unplugged">%1$s с момента отключения от питания</string>
     <string name="menu_use_uss">Использовать USS</string>
     <string name="misc_files">Разное</string>
@@ -2127,6 +2132,7 @@
     <string name="notification_channels_other">Другие</string>
     <string name="notification_content_block_summary">Не показывать уведомления на фоне или на периферийных устройствах</string>
     <string name="notification_content_block_title">Включить уведомления</string>
+    <string name="notification_importance_blocked">Никогда не показывать уведомления</string>
     <string name="notification_importance_blocked">Отключить уведомления</string>
     <string name="notification_importance_default">Звук</string>
     <string name="notification_importance_default_title">Высокий</string>
@@ -2163,6 +2169,7 @@
     <string name="notification_log_details_package">пакет</string>
     <string name="notification_log_details_parcel">размер пакета</string>
     <string name="notification_log_details_priority">приоритет</string>
+    <string name="notification_log_details_public_version">Публичная версия</string>
     <string name="notification_log_details_ranking_none">В объекте нет этого ключа.</string>
     <string name="notification_log_details_ranking_null">Объект отсутствует.</string>
     <string name="notification_log_details_remoteinput">удаленные входы</string>
@@ -2302,6 +2309,7 @@
     <string name="premium_sms_access">Доступ к платным SMS</string>
     <string name="premium_sms_none">Установленные приложения не запрашивали доступ к платным SMS</string>
     <string name="premium_sms_warning">Обратите внимание, что такие SMS могут оплачиваться дополнительно. Предоставив разрешение приложению, вы сможете отправлять платные SMS с его помощью.</string>
+    <string name="press_color_to_apply">Нажмите на цвет ниже, чтобы применить</string>
     <string name="preview_page_indicator_content_description">Предпросмотр, страница %1$d из %2$d</string>
     <string name="preview_pager_content_description">Просмотр</string>
     <string name="print_blocked_state_title_template">Задание \"%1$s\" заблокировано</string>
@@ -2500,6 +2508,7 @@ UT-интерфейс: %5$s"</string>
     <string name="reset_network_title">Сбросить сетевые настройки</string>
     <string name="reset_shortcut_manager_throttling">Сброс счетчиков ShortcutManager</string>
     <string name="reset_shortcut_manager_throttling_complete">Готово</string>
+    <string name="reset_stats_msg">История статистики батареи будет сброшена</string>
     <string name="restore_default_apn">Восстановление настроек APN по умолчанию...</string>
     <string name="restore_default_apn_completed">Настройки по умолчанию восстановлены</string>
     <string name="restr_pin_enter_admin_pin">Введите PIN-код администратора</string>
@@ -3169,7 +3178,7 @@ UT-интерфейс: %5$s"</string>
     <string name="sync_menu_sync_now">Синхронизировать</string>
     <string name="sync_one_time_sync">"Нажмите, чтобы синхронизировать
 %1$s"</string>
-    <string name="sync_plug"><font fgcolor="#ffffffff">Добро пожаловать в Google Sync.</font>"
+    <string name="sync_plug"><font fgcolor="#ffffffff">Добро пожаловать в Google Sync!</font>"
 Технология синхронизации Google позволяет получать данные о контактах, встречах в календаре и многом другом с любого устройства."</string>
     <string name="system_alert_window_access_title">Поверх других приложений</string>
     <string name="system_alert_window_apps_title">Приложения</string>
@@ -3185,10 +3194,8 @@ UT-интерфейс: %5$s"</string>
     <string name="system_update_settings_list_item_title">Обновление системы</string>
     <string name="system_uptodate">Установлена актуальная версия системы</string>
     <string name="talkback_summary">Инструмент для озвучивания данных с экрана для людей с нарушениями зрения</string>
-    <string name="talkback_title">Talkback</string>
     <string name="tap_to_wake">Включение нажатием</string>
     <string name="tap_to_wake_summary">Дважды нажмите в любом месте экрана, чтобы включить устройство</string>
-    <string name="telephony_monitor_switch">Telephony Monitor</string>
     <string name="telephony_monitor_switch_summary">Обнаружив проблему в работе модема или телефонной связи, Telephony Monitor будет собирать журналы и предлагать пользователю отправить информацию об ошибке</string>
     <string name="telephony_monitor_toast">Чтобы включить Telephony Monitor, перезагрузите устройство</string>
     <string name="terms_title">Условия использования</string>
@@ -3216,6 +3223,7 @@ UT-интерфейс: %5$s"</string>
     <string name="ticker_media_enabled">Счетчик уведомлений и музыки</string>
     <string name="ticker_mode_title">Счетчик уведомлений</string>
     <string name="time_picker_title">Время</string>
+    <string name="time_zone_auto_stub">Выберите часовой пояс</string>
     <string name="title_convert_fbe">Переход к шифрованию отдельных файлов</string>
     <string name="title_font_size">Размер шрифта</string>
     <string name="toast_icon_summary">Отображать иконку приложения вместе с toast-уведомлением</string>
@@ -3224,7 +3232,7 @@ UT-интерфейс: %5$s"</string>
     <string name="torch_power_button_gesture_lp">Долгое нажатие кнопки питания для включения фонарика</string>
     <string name="torch_power_button_gesture_none">Отключено</string>
     <string name="torch_power_button_gesture_title">Включать фонарик кнопкой питания при выкл. экране</string>
-    <string name="total_memory">Всего</string>
+    <string name="total_memory">Всего памяти</string>
     <string name="total_size_label">Всего</string>
     <string name="touch_filtered_warning">Невозможно принять ваше согласие, поскольку запрос скрыт другим приложением.</string>
     <string name="touch_sounds_title">Звук нажатия на экран</string>
@@ -3517,6 +3525,9 @@ UT-интерфейс: %5$s"</string>
     <string name="user_you">Вы (%s)</string>
     <string name="users_and_accounts_summary">Текущий пользователь: %1$s</string>
     <string name="users_summary">Вы вошли как %1$s</string>
+    <string name="v7_preference_off">ВЫКЛ</string>
+    <string name="v7_preference_on">ВКЛ</string>
+    <string name="value_equals_default">по умолч.</string>
     <string name="verify_apps_over_usb_summary">Выполнять проверку безопасности приложений при установке через ADB/ADT</string>
     <string name="verify_apps_over_usb_title">Проверять приложения при установке</string>
     <string name="version_text">Версия %1$s</string>
@@ -3766,8 +3777,14 @@ UT-интерфейс: %5$s"</string>
     <string name="wifi_ip_settings_invalid_network_prefix_length">Укажите длину префикса сети (от 0 до 32).</string>
     <string name="wifi_ip_settings_menu_cancel">Отмена</string>
     <string name="wifi_ip_settings_menu_save">Сохранить</string>
+    <string name="wifi_display_certification_heading">Сертификация</string>
+    <string name="wifi_display_listen_channel">Канал прослушивания</string>
+    <string name="wifi_display_autonomous_go">Включить автономный режим</string>
+    <string name="wifi_display_resume">Сводка</string>
+    <string name="wifi_display_session_info">Информация о сессии</string>
     <string name="wifi_limit_optimizations_summary">Лимит расхода батареи (Wi‑Fi)</string>
     <string name="wifi_menu_advanced">Дополнительные функции</string>
+    <string name="wifi_menu_auto_connect">Автосоединение</string>
     <string name="wifi_menu_configure">Настроить</string>
     <string name="wifi_menu_connect">Подключиться к сети</string>
     <string name="wifi_menu_forget">Удалить эту сеть</string>
@@ -3826,6 +3843,7 @@ UT-интерфейс: %5$s"</string>
     <string name="wifi_scan_notify_text_scanning_off">Чтобы повысить точность определения местоположения, включите поиск сетей Wi-Fi в LINK_BEGINнастройкахLINK_END.</string>
     <string name="wifi_security">Защита</string>
     <string name="wifi_security_none">Нет</string>
+    <string name="wifi_security_passpoint">Точка пропуска</string>
     <string name="wifi_select_network">Выбор сети Wi-Fi</string>
     <string name="wifi_setting_on_during_sleep_title">Wi‑Fi в спящем режиме</string>
     <string name="wifi_setting_sleep_policy_error">Не удалось изменить этот параметр</string>
@@ -3873,7 +3891,14 @@ UT-интерфейс: %5$s"</string>
     <string name="wifi_ssid">Имя сети</string>
     <string name="wifi_ssid_hint">Введите имя сети (SSID)</string>
     <string name="wifi_starting">Включение Wi-Fi…</string>
+    <string name="wifi_state_disabled">Отключено</string>
+    <string name="wifi_state_disabling">Отключение</string>
+    <string name="wifi_state_enabled">Включено</string>
+    <string name="wifi_state_enabling">Включение</string>
+    <string name="wifi_state_label">Состояние Wi-Fi:</string>
+    <string name="wifi_state_unknown">Неизвестно</string>
     <string name="wifi_status">Статус</string>
+    <string name="wifi_status_test">Статус Wi-Fi</string>
     <string name="wifi_stopping">Отключение Wi-Fi…</string>
     <string name="wifi_suspend_efficiency_title">Сбережение энергии</string>
     <string name="wifi_suspend_optimizations">Оптимизация Wi-Fi</string>
@@ -3889,6 +3914,7 @@ UT-интерфейс: %5$s"</string>
     <string name="wifi_tether_stopping">Выключение точки доступа…</string>
     <string name="wifi_unchanged">(без изменений)</string>
     <string name="wifi_unspecified">Выберите</string>
+    <string name="wifi_update">Обновить статистику</string>
     <string name="wifi_use_system_certs">Использовать системные сертификаты</string>
     <string name="wifi_verbose_logging">Подробный журнал Wi‑Fi</string>
     <string name="wifi_verbose_logging_summary">При выборе Wi‑Fi указывать в журнале RSSI для каждого SSID</string>
@@ -3904,6 +3930,7 @@ UT-интерфейс: %5$s"</string>
     <string name="wifi_wps_failed_overlap">Обнаружен другой сеанс WPS. Повторите попытку через несколько минут.</string>
     <string name="wifi_wps_failed_tkip">Безопасная настройка беспроводного маршрутизатора (TKIP) не поддерживаются</string>
     <string name="wifi_wps_failed_wep">Безопасная настройка беспроводного маршрутизатора (WEP) не поддерживается</string>
+    <string name="wifi_wps_failed_wifi_disconnected">Wi-Fi отключен. Установка WPS отменена.</string>
     <string name="wifi_wps_in_progress">Выполняется настройка WPS. Для завершения потребуется не более двух минут.</string>
     <string name="wifi_wps_nfc_enter_password">Введите пароль для подключения к сети.</string>
     <string name="wifi_wps_onstart_pbc">Нажмите кнопку \"Безопасная настройка Wi-Fi\" на маршрутизаторе. Она может называться WPS или быть отмечена этим символом:</string>
